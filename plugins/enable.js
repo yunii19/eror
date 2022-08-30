@@ -15,7 +15,7 @@ let ftrol = {
     surface : 1,
     message: `📮 𝗥𝗣𝗚 Whatsapp ʙᴏᴛ`, 
     orderTitle: `▮Menu ▸`,
-    thumbnail: await conn.resize(await (await fetch(fla + 'Setting')).buffer(), 300, 200), //Gambarnye
+    thumbnail: conn.send2ButtonImh(await (await fetch(fla + 'https://telegra.ph/file/e6215ae5a04629135d621.jpg')).buffer(), 300, 200), //Gambarnye
     sellerJid: '0@s.whatsapp.net' 
     }
     } 
