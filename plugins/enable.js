@@ -1,7 +1,7 @@
 let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isROwner }) => {
   let isEnable = /true|enable|(turn)?on|1/i.test(command)
   let hao = `*Official Bot By @${'0'.split('@')[0]}* 
-*Powered By @${global.owner[0].split('@')[0]}*` 
+*Powered By @${'${global.owner[0]}'.split('@')[0]}*` 
 let ftrol = {
     key : {
     remoteJid: 'status@broadcast',
