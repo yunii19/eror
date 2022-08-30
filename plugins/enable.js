@@ -447,7 +447,7 @@ case 'anticall':
       if (!/[01]/.test(command)) return  conn.sendMessage(m.chat, listMessage, { quoted: ftrol, mentions: await conn.parseMention(wm), contextInfo: { forwardingScore: 99999, isForwarded: true }})
       throw false
   }
-  conn.send2ButtonImg(m.chat,`🗂️ *Type:* ${type} 
+  conn.send2Button(m.chat,`🗂️ *Type:* ${type} 
 📊 *Status:* Succes ✅
 🎚️ *Options:* ${isEnable ? 'Enable' : 'Disable'}
 📣 *For:* ${isAll ? 'This Bot' : isUser ? '' : 'This Chats'}`, wm, `⋮☰ Menu`, '.menu', `${isEnable ? 'Off' : 'On'} ${type}`, `.${isEnable ? 'Off' : 'On'} ${type}` ,{ key: { fromMe: false, remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net' }, message: { orderMessage: { message: `Colour Your Life`, itemCount: 99999, thumbnail: await (await fetch('https://telegra.ph/file/09f6fd389fef97938b40b.jpg')).buffer(),}}})
