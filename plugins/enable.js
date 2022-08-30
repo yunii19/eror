@@ -1,3 +1,4 @@
+let fetch = require('node-fetch')
 let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isROwner }) => {
   let isEnable = /true|enable|(turn)?on|1/i.test(command)
   let hao = `*Official Bot By @${'0'.split('@')[0]}* 
