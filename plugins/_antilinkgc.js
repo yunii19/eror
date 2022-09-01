@@ -1,4 +1,4 @@
-let handler = async (m, { conn, command, text }) => {
+let handler = m => m
 await conn.sendMessage(m.chat, { delete: m.key })
 }
 
