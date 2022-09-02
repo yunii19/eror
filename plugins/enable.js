@@ -440,6 +440,7 @@ List option❀:
 |❀pconly
 |❀gconly
 |❀swonly
+|❀antivirtex
 Contoh:
 ${usedPrefix}enable welcome
 ${usedPrefix}disable welcome
