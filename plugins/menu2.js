@@ -55,7 +55,7 @@ const defaultMenu = {
 ┆♠︎ *Limit* : Ⓛ 
 ┆♠︎ *Premium* : Ⓟ
 ┆♠︎ *Uptime:* : %uptime (%muptime)
-┆♠︎ *Run Bot* : heroku
+┆♠︎ *Run Bot* : Panel
 ┗─────────────────⬣
 %readmore`.trimStart(),
   header: '╔═❖〔 %category 〕❖════╗\n┃',
