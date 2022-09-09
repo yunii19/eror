@@ -55,7 +55,7 @@ const defaultMenu = {
 ┆⬡ *Limit* : Ⓛ 
 ┆⬡ *Premium* : Ⓟ
 ┆⬡ *Uptime:* : %uptime (%muptime)
-┆⬡ *Run Bot* : Okteto/heroku
+┆⬡ *Run Bot* : panel/rdp
 ┆⬡ *Ig Owner* : instagram.com/oscarbotz_
 ┗─────────────────⬣
 %readmore`.trimStart(),
