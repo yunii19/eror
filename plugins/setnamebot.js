@@ -1,6 +1,6 @@
 // By Jarot
 let handler = async (m, { conn, text, usedPrefix, args }) => {
-  if (!text) throw `Harap masukkan text!\n\nContoh: ${usedPrefix + command} Oscar Bot`
+  if (!text) throw `Harap masukkan text!\n\nContoh: ${usedPrefix} Oscar Bot`
   try {
     await conn.updateProfileName(text)
     m.reply('Berhasil!')
